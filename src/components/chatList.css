@@ -1,0 +1,138 @@
+
+
+  .whatsapp-background-top{
+    position: absolute;
+    top:0;
+    background-color: #00a783;
+    width: 100%;
+    z-index: -1;
+    height: 20vh;
+  }
+  .whatsapp-background-bottom{
+    background-color: #e0dfdb;
+    position: absolute;
+    top:20vh;
+    width: 100%;
+    z-index: -1;
+    height: 80vh;
+  
+  }
+  /* left */
+  .chat-list-container{
+    width:30%;
+    height: 100%;
+    /* background-color: aqua; */
+  }
+  
+  .user-settings{
+    padding: 0 10px;
+    width: 100%;
+    height: 60px;
+    background-color: #f0f2f5;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-right: 1px solid #c1c1c1;
+  }
+  .user-profile-picture{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* background-color: #00a783; */
+  }
+  .user-profile-picture img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  
+  /* search section */
+  .search-section{
+    height: 46px;
+    width: 100%;
+    background-color: #ffffff;
+    padding:6px 0;
+    position: relative;
+    border-bottom: 1px solid #e0dfdb;
+  
+  }
+  .search-section .search-button{
+    position: absolute;
+    top: 15px;
+    left: 7.5%;
+  }
+  .search-box{
+    /* position: relative; */
+    margin:0 5%;
+    width: 80%;
+    height: 34px;
+    padding-left: 60px;
+    border: none;
+    background-color: #f0f2f5;
+    border-radius: 7px;
+  }
+  
+  /* chat lists */
+  .chat-list{
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    overflow-y: scroll;
+    /* justify-content: center; */
+  }
+  .chat-card{
+    cursor: pointer;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    /* background-color: aqua; */
+    padding: 5px;
+    /* margin: 5px 0; */
+  }
+  .chat-profile-photo{
+    width: 60px;
+    height: 60px;
+    background-color: #e0dfdb;
+    border-radius: 50%;
+    /* margin-right: 10px; */
+  }
+  .chat-profile-photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  .chat-profile-details{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #e0dfdb;
+  }
+  .about-profile{
+  display: flex;
+  flex-direction: column;
+  }
+  .chat-profile-name{
+    font-weight: 400;
+    margin-bottom: 5px;
+  }
+  .latest-msg{
+    font-size: small;
+    color: #7f7f7f;
+  }
+  .chat-time{
+    font-size: 11px;
+    color: #909090;
+  }
+  
+  
+  

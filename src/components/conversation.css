@@ -1,0 +1,130 @@
+/* .conversation{
+    width: 60%;
+    height: 90vh;
+    background-color:rgb(59, 133, 44) ;
+} */
+
+/* right */
+
+.current-chat-container{
+    position: relative;
+    width:70%;
+    height: 100%;
+    background: url('https://cdn.wallpapersafari.com/4/11/WofyVJ.png');
+
+}
+.current-photo-name-container{
+    display: flex;
+    align-items: center;
+}
+
+  .current-chat-settings{
+    padding: 0 10px;
+    width: 100%;
+    height: 60px;
+    background-color: #f0f2f5;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-right: 1px solid #c1c1c1;
+}
+.current-chat-profile-picture{
+    cursor: pointer;
+    width: 45px;
+    height:45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    /* background-color: #00a783; */
+}
+.current-chat-profile-picture img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.chat-date{
+    position: absolute;
+    bottom: 220px;
+    right: 50%;
+    font-size: 14px;
+    background-color: #ffffff;
+    color: #787878;
+    padding: 5px 7px;
+    border-radius: 5px; 
+}
+/* recived*/
+.chats-received{
+    position: absolute;
+    bottom: 130px;
+    left: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+.msg-received{
+    padding-right: 50px;
+}
+.msg-received-time{
+    text-align: right;
+    font-size: 11px;
+}
+/* sent */
+.chats-sent{
+    position: absolute;
+    bottom: 70px;
+    right: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #d9fdd3;
+}
+.msg-sent{
+    padding-right: 30px;
+}
+.msg-sent-time{
+    text-align: right;
+    font-size: 11px;
+}
+
+
+
+/* right bottom */
+
+.sent-messege-container{
+    padding: 0 10px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #f0f2f5;
+}
+.smile-button{
+    margin-right: 14px;
+    cursor: pointer;
+}
+.attach-button{
+    margin-right: 14px;
+    cursor: pointer;
+}
+.sent-messege-input{
+    width: 88%;
+    margin-right: 10px;
+}
+.sent-messege-input input{
+    width:100%;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: large;
+    border: none;
+
+}
+.sent-voice-msg-button{
+    cursor: pointer;
+}
+
+
+
