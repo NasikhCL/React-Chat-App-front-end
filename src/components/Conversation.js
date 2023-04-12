@@ -1,8 +1,14 @@
-
-import React from 'react'
+import React, { useRef, useEffect } from 'react';
 import '../index.css'
 
 const Conversation = ({convoDetails}) => {
+  const messagesRef = useRef(null);
+
+  useEffect(() => {
+    messagesRef.current.scrollTop = messagesRef.current.scrollHeight;
+  });
+
+
     return (
       <section className="current-chat-container">
         <div className="current-chat-settings">
@@ -18,38 +24,55 @@ const Conversation = ({convoDetails}) => {
             </div>
           </div>
           <div className="settings">
-            <img src="https://img.icons8.com/ios-glyphs/21/null/search--v1.png" />
-            <img
-              className="m-2"
-              src="https://img.icons8.com/ios-filled/18/null/menu-2.png"
+            <img src="https://img.icons8.com/ios-glyphs/21/null/search--v1.png" alt=''/>
+            <img className="m-2"
+              src="https://img.icons8.com/ios-filled/18/null/menu-2.png" alt=''
             />
           </div>
         </div>
 
         
 
-        <div className="chat-date">
+        {/* <div className="chat-date">
           <p>TODAY</p>
+        </div> */}
+        {/* <div>
+          <div className="chats-received">
+            <p className="msg-received">Hi</p>
+            <p className="msg-received-time">12:40 PM</p>
+          </div>
+          <div className="chats-sent">
+            <p className="msg-sent">How are you sir?</p>
+            <p className="msg-sent-time">12:45 PM</p>
+          </div>
+        </div> */}
+        <div className='chat-convo-container' ref={messagesRef}>
+
+        {
+          convoDetails.chatlog.map(msg=>{
+            return( 
+              <div className={msg.side === 'right' ? 'side-right' : 'side-left'}>
+                <p className="msg-sent">{msg.text}</p> 
+                <p className="msg-sent-time">{msg.timestamp}</p>
+              </div>
+            )
+          })
+        }
         </div>
-        <div className="chats-received">
-          <p className="msg-received">Hi</p>
-          <p className="msg-received-time">12:40 PM</p>
-        </div>
-        <div className="chats-sent">
-          <p className="msg-sent">How are you sir?</p>
-          <p className="msg-sent-time">12:45 PM</p>
-        </div>
+        
+       
+        
 
         
         <div className="sent-messege-container">
           <div>
             <img
               className="smile-button"
-              src="https://img.icons8.com/material-outlined/24/null/smiling.png"
+              src="https://img.icons8.com/material-outlined/24/null/smiling.png" alt=''
             />
             <img
               className="attach-button"
-              src="https://img.icons8.com/ios/24/null/attach.png"
+              src="https://img.icons8.com/ios/24/null/attach.png" alt=''
             />
           </div>
           <div className="sent-messege-input">

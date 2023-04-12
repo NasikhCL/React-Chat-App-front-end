@@ -123,14 +123,14 @@ export const datas = {
           "text":
             "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet",
           "timestamp": "10:03 AM",
-          "side": "left",
+          "side": "right",
           "message_id": 4
         },
         {
           "text":
             "Or maybe not, let me check logistics and call you. Give me sometime",
           "timestamp": "10:03 AM",
-          "side": "left",
+          "side": "right",
           "message_id": 3
         },
         {
@@ -142,7 +142,7 @@ export const datas = {
         {
           "text": "Did you recieve the package I sent you the other day?",
           "timestamp": "10:00 AM",
-          "side": "left",
+          "side": "right",
           "message_id": 1
         }
       ]

@@ -13,8 +13,8 @@ const ChatList = ({profileData, friendsArr, passSetCurrentConvo}) => {
             <div style={{fontWeight:'600'}}>{profileData.name}</div>
             <div className="settings">
                
-                <img className="m-2" src="https://img.icons8.com/ios/25/null/loading.png"/>
-                <img className="m-2" src="https://img.icons8.com/ios-filled/25/null/sms.png"/>
+                {/* <img className="m-2" src="https://img.icons8.com/ios/25/null/loading.png"/>
+                <img className="m-2" src="https://img.icons8.com/ios-filled/25/null/sms.png"/> */}
                 <img className="m-2" src="https://img.icons8.com/ios-filled/20/null/menu-2.png"/>
             </div>
         </div>
