@@ -328,3 +328,17 @@ flex-direction: column;
     }
     
   }
+
+  .no-convo{
+    margin-top: 10px;
+    margin-right: 10px;
+    position: relative;
+    width: 70%;
+    height: 95vh;
+    background: url('https://cdn.wallpapersafari.com/4/11/WofyVJ.png');
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #5a5a5a;
+  }
