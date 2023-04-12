@@ -25,84 +25,70 @@ export const datas = {
         "name": "Luke",
         "picture": "https://image.ibb.co/jOzeUG/luke_1.jpg",
         "latest_timestamp": "4:12 PM",
-        "lastChat": "I will look into it"
+        "lastChat": "hey, how are you"
       },
       {
         "id": 5,
         "name": "Bane",
         "picture": "https://image.ibb.co/cBZPww/bane_1.jpg",
         "latest_timestamp": "7:53 PM",
-        "lastChat": "Exactly my point!"
+        "lastChat": ""
       },
       {
         "id": 6,
         "name": "Darth Vader",
         "picture": "https://image.ibb.co/j4Ov3b/darth_vader_1.png",
         "latest_timestamp": "1:09 PM",
-        "lastChat": "Not quite the same."
+        "lastChat": ""
       },
       {
         "id": 7,
         "name": "Zach",
         "picture": "https://image.ibb.co/b4kxGw/zach_1.jpg",
         "latest_timestamp": "Yesterday",
-        "lastChat": "I thought that the event was over long ago"
+        "lastChat": ""
       },
       {
         "id": 8,
         "name": "Katie",
         "picture": "https://image.ibb.co/eLVWbw/katie_1.jpg",
         "latest_timestamp": "Yesterday",
-        "lastChat": "nothing"
+        "lastChat": ""
       },
       {
         "id": 9,
         "name": "Chloe",
         "picture": "https://image.ibb.co/ncAa3b/chloe_1.jpg",
         "latest_timestamp": "Wednesday",
-        "lastChat": "sure i'll take it from you"
+        "lastChat": ""
       },
       {
         "id": 10,
         "name": "Kennith",
         "picture": "https://image.ibb.co/fQKPww/kennith_1.jpg",
         "latest_timestamp": "Wednesday",
-        "lastChat": "Take care, bye"
+        "lastChat": ""
       },
       {
         "id": 11,
         "name": "Tara",
         "picture": "https://image.ibb.co/dM6hib/tara_1.jpg",
         "latest_timestamp": "Monday",
-        "lastChat": "Not today"
+        "lastChat": ""
       },
       {
         "id": 12,
         "name": "Gary",
         "picture": "https://image.ibb.co/gsF8Ob/gary_1.jpg",
         "latest_timestamp": "Sunday",
-        "lastChat": "Whatever works for you!"
+        "lastChat": ""
       },
       {
         "id": 13,
         "name": "Zoey",
         "picture": "https://image.ibb.co/nd0Wbw/zoey_1.jpg",
         "latest_timestamp": "8/12/2017",
-        "lastChat": "Will get in touch"
-      },
-      {
-        "id": 14,
-        "name": "Ash",
-        "picture": "https://image.ibb.co/iasYpG/ash_1.jpg",
-        "latest_timestamp": "6/12/2017",
-        "lastChat": "Ok"
-      },
-      {
-        "id": 15,
-        "name": "Zen",
-        "picture": "https://image.ibb.co/eeqWbw/zen_1.jpg",
-        "latest_timestamp": "19/11/2017",
-        "lastChat": "Lol"
+        "lastChat": ""
       }
     ]
   },

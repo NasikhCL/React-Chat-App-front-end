@@ -3,7 +3,7 @@ import '../index.css'
 
 const FriendCard = ({friendData,passSetCurrentConvo, currentSelected}) => {
     console.log(friendData);
-    let lastMsg = friendData.lastChat.length > 9 ? friendData.lastChat.slice(0, 45) + " ..." : friendData.lastChat
+    let lastMsg = friendData.lastChat.length > 30 ? friendData.lastChat.slice(0, 45) + " ..." : friendData.lastChat
     console.log(lastMsg) 
   return (
     <div className={currentSelected === friendData.id ? "current-chat chat-card" : "chat-card"} onClick={()=> passSetCurrentConvo(friendData.id)}>
