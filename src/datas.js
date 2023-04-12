@@ -186,7 +186,22 @@ export const datas = {
       "id": 4,
       "name": "Luke",
       "picture": "https://image.ibb.co/jOzeUG/luke_1.jpg",
-      "chatlog": []
+      "chatlog": [
+        {
+          "text":
+            "all good, you?",
+          "timestamp": "06:56 AM",
+          "side": "right",
+          "message_id": 2
+        },
+        {
+          "text":
+            "hey, how are you",
+          "timestamp": "06:55 AM",
+          "side": "left",
+          "message_id": 1
+        },
+      ]
     },
     {
       "id": 5,

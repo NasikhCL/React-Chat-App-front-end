@@ -2,7 +2,7 @@ import React from 'react'
 import '../index.css'
 import FriendCard from './FriendCard'
 
-const ChatList = ({profileData, friendsArr, passSetCurrentConvo}) => {
+const ChatList = ({profileData, friendsArr, passSetCurrentConvo, currentSelected}) => {
     console.log(profileData.picture)
     return (
         <section className="chat-list-container">
@@ -25,7 +25,7 @@ const ChatList = ({profileData, friendsArr, passSetCurrentConvo}) => {
 
         <div className="chat-list">
            {friendsArr.map(friend=>{
-            return(<FriendCard friendData={friend} passSetCurrentConvo={passSetCurrentConvo}/>)
+            return(<FriendCard currentSelected={currentSelected} friendData={friend} passSetCurrentConvo={passSetCurrentConvo}/>)
            })}
          
         </div>

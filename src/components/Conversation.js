@@ -1,9 +1,13 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import '../index.css'
 
-const Conversation = ({convoDetails}) => {
+const Conversation = ({convoDetails, addMessage}) => { 
   const messagesRef = useRef(null);
-
+  const [inputData, setInputData] = useState('')
+  const handleSubmit =(e)=>{
+    addMessage(e.target.value)
+    setInputData('') 
+  }
   useEffect(() => {
     messagesRef.current.scrollTop = messagesRef.current.scrollHeight;
   });
@@ -72,14 +76,14 @@ const Conversation = ({convoDetails}) => {
             />
             <img
               className="attach-button"
-              src="https://img.icons8.com/ios/24/null/attach.png" alt=''
-            />
+              src="https://img.icons8.com/ios/24/null/attach.png" alt='' 
+            /> 
           </div>
           <div className="sent-messege-input">
-            <input type="text" placeholder="Type a message" />
+            <input type="text" placeholder="Type a message" value={inputData} onChange={(e)=>setInputData(e.target.value)} onKeyDown={(e)=> (e.key === 'Enter') && handleSubmit(e) }/>
           </div>
           <div className="sent-voice-msg-button">
-            <img src="https://img.icons8.com/material-sharp/24/null/microphone--v1.png" />
+            <img src="https://img.icons8.com/material-sharp/24/null/microphone--v1.png" alt=''/>
           </div>
         </div>
       </section>
